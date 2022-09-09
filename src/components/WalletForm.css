@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
+  font-family: Josefin Sans, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 select {
-  box-shadow: 2px 2px 2px #fab243;
-  color: #fab243;
+  box-shadow: 1px 2px 1px #dff9fb;
+  color: #95afc0;
   height: 25px;
   margin: 10px;
   text-align: center;
@@ -24,4 +25,19 @@ label {
 
 .button-class {
   margin: 20px;
+}
+
+.form-class input {
+  box-shadow: 1px 2px 1px #dff9fb;
+}
+
+@media ( max-width : 700px ) {
+
+  .form-class input {
+    width: 100px;
+  }
+
+  label {
+    font-size: 13px;
+  }
 }

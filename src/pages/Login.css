@@ -1,15 +1,15 @@
 * {
-  background-color: #394240;
+  background-color: #535c68;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 p {
-  color: #fab243;
+  color: #95afc0;
   display: inline-block;
   font-family: Pacifico, cursive;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   margin: 10px 0;
   text-align: center;
@@ -22,12 +22,16 @@ form {
 }
 
 input {
-  box-shadow: 2px 2px 2px #fab243;
-  color: #fab243;
+  box-shadow: 2px 2px 2px #535c68;
+  color: #95afc0;
   height: 25px;
   margin: 10px;
   padding: 13px;
   width: 350px;
+}
+
+input::placeholder {
+  color: #95afc0;
 }
 
 main {
@@ -36,9 +40,9 @@ main {
 }
 
 button {
-  background-color: #fab243;
+  background-color: #30336b;
   border-radius: 4px;
-  color: black;
+  color: #535c68;
   height: 25px;
   margin: 0 auto;
   margin-top: 15px;
@@ -46,8 +50,22 @@ button {
 }
 
 button:hover {
-  background-color: #fffae3;
-  color: #394240;
+  background-color: #130f40;
+  color: red;
+}
+
+button:disabled {
+  background-color: #95afc0;
+}
+
+button:enabled {
+  background-color: #30336b;
+  color: #7ed6df;
+}
+
+button:enabled:hover {
+  background-color: #95afc0;
+  color: #30336b;
 }
 
 hr {
